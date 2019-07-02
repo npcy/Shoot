@@ -1,24 +1,29 @@
 package com.tarena.fly;
 
-import java.awt.Font;
+import java.awt.*;
+import java.util.*;
+/*import java.awt.Font;
 import java.awt.Color;
-import java.awt.Graphics;
+import java.awt.Graphics;*/  //绘制2D图像的Java包
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.util.Arrays;
-import java.util.Random;
+
+/*import java.util.Arrays;
+import java.util.Random;*/
 import java.util.Timer;
 import java.util.TimerTask;
 import java.awt.image.BufferedImage;
 
 import javax.imageio.ImageIO;
-import javax.swing.ImageIcon;
+import javax.swing.ImageIcon;  //添加图片
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import java.net.URL;
+import java.applet.*;
 
 public class ShootGame extends JPanel {
-	public static final int WIDTH = 400; // 面板宽
-	public static final int HEIGHT = 654; // 面板高
+	public static final int WIDTH = 400; // 面板宽（静态常量）
+	public static final int HEIGHT = 654; // 面板高（静态常量）
 	/** 游戏的当前状态: START RUNNING PAUSE GAME_OVER */
 	private int state;
 	private static final int START = 0;
@@ -30,6 +35,7 @@ public class ShootGame extends JPanel {
 	private Timer timer; // 定时器
 	private int intervel = 1000 / 100; // 时间间隔(毫秒)
 
+	/*BufferedImage是Image的一个子类，BufferedImage生成的图片在内存里有一个图像缓冲区，利用这个缓冲区我们可以很方便的操作这个图片，*/
 	public static BufferedImage background;
 	public static BufferedImage start;
 	public static BufferedImage airplane;
@@ -46,8 +52,7 @@ public class ShootGame extends JPanel {
 
 	static { // 静态代码块，初始化图片资源
 		try {
-			background = ImageIO.read(ShootGame.class
-					.getResource("background.png"));
+			background=ImageIO.read(ShootGame.class.getResource("background.png"));
 			start = ImageIO.read(ShootGame.class.getResource("start.png"));
 			airplane = ImageIO
 					.read(ShootGame.class.getResource("airplane.png"));
@@ -67,11 +72,11 @@ public class ShootGame extends JPanel {
 	@Override
 	public void paint(Graphics g) {
 		g.drawImage(background, 0, 0, null); // 画背景图
+		paintState(g); // 画游戏状态
 		paintHero(g); // 画英雄机
 		paintBullets(g); // 画子弹
 		paintFlyingObjects(g); // 画飞行物
 		paintScore(g); // 画分数
-		paintState(g); // 画游戏状态
 	}
 
 	/** 画英雄机 */
@@ -131,9 +136,8 @@ public class ShootGame extends JPanel {
 		frame.setAlwaysOnTop(true); // 设置其总在最上
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // 默认关闭操作
 		frame.setIconImage(new ImageIcon("images/icon.jpg").getImage()); // 设置窗体的图标
-		frame.setLocationRelativeTo(null); // 设置窗体初始位置
+		frame.setLocationRelativeTo(null); // 设置窗体初始位置(使窗口显示在中央)
 		frame.setVisible(true); // 尽快调用paint
-
 		game.action(); // 启动执行
 	}
 
@@ -244,7 +248,8 @@ public class ShootGame extends JPanel {
 			Bullet[] bs = hero.shoot(); // 英雄打出子弹
 			bullets = Arrays.copyOf(bullets, bullets.length + bs.length); // 扩容
 			System.arraycopy(bs, 0, bullets, bullets.length - bs.length,
-					bs.length); // 追加数组
+					bs.length
+			); // 追加数组
 		}
 	}
 
@@ -361,5 +366,4 @@ public class ShootGame extends JPanel {
 			return new Airplane();
 		}
 	}
-
 }
