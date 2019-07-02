@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49643a33-4a47-4cd7-9707-63848e736f8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shoot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/META-INF/Shoot.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/com/tarena/fly/03E58PICwbQ_1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tarena/fly/03E58PICwbQ_1024.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/tarena/fly/Airplane.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tarena/fly/Airplane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/tarena/fly/Award.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tarena/fly/Award.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/tarena/fly/Bee.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tarena/fly/Bee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/tarena/fly/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tarena/fly/Bullet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/tarena/fly/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tarena/fly/Enemy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/tarena/fly/FlyingObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tarena/fly/FlyingObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/tarena/fly/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tarena/fly/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/tarena/fly/ShootGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tarena/fly/ShootGame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/tarena/fly/ShootGame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tarena/fly/ShootGame$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/tarena/fly/ShootGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/tarena/fly/ShootGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tarena/fly/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tarena/fly/Airplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tarena/fly/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tarena/fly/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tarena/fly/ShootGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tarena/fly/ShootGame.java" afterDir="false" />
+    <list default="true" id="49643a33-4a47-4cd7-9707-63848e736f8a" name="Default Changelist" comment="Small-plane-game">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -66,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tarena/fly/ShootGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3328">
+            <state relative-caret-position="2834">
               <caret line="130" column="44" selection-start-line="130" selection-start-column="44" selection-end-line="130" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -75,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/tarena/fly/FlyingObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1222">
-              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+            <state relative-caret-position="333">
+              <caret line="73" column="73" lean-forward="true" selection-start-line="73" selection-start-column="73" selection-end-line="73" selection-end-column="73" />
               <folding>
                 <element signature="e#300#301#0" expanded="true" />
                 <element signature="e#315#316#0" expanded="true" />
@@ -101,21 +78,6 @@
                 <element signature="e#715#716#0" expanded="true" />
                 <element signature="e#761#762#0" expanded="true" />
                 <element signature="e#786#787#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/tarena/fly/Bee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-              <folding>
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,10 +122,16 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="caoyuanle" />
         <option value="npcy" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="wblearn" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="Small-plane-game" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -173,6 +141,7 @@
         <option value="$PROJECT_DIR$/src/com/tarena/fly/Airplane.java" />
         <option value="$PROJECT_DIR$/src/com/tarena/fly/ShootGame.java" />
         <option value="$PROJECT_DIR$/src/com/tarena/fly/MusicDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/tarena/fly/Bee.java" />
       </list>
     </option>
   </component>
@@ -200,10 +169,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="Shoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Small-plane-game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Small-plane-game" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Small-plane-game" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fly" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Small-plane-game" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fly" type="462c0819:PsiDirectoryNode" />
+              <item name="FlyingObject" type="1a9f42e2:ClassTreeNode" />
+            </path>
             <path>
               <item name="Shoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -212,12 +203,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -262,6 +254,14 @@
       <option name="presentableId" value="Default" />
       <updated>1561705416398</updated>
     </task>
+    <task id="LOCAL-00001" summary="Small-plane-game">
+      <created>1562045853815</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562045853815</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -275,8 +275,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27045456" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -292,7 +293,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972136" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32972136" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32972136" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32972136" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -366,6 +367,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tarena/fly/MusicDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/tarena/fly/Bee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tarena/fly/Enemy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -381,39 +395,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tarena/fly/ShootGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3328">
+        <state relative-caret-position="2834">
           <caret line="130" column="44" selection-start-line="130" selection-start-column="44" selection-end-line="130" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tarena/fly/FlyingObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1222">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-          <folding>
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -439,15 +424,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tarena/fly/Bee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tarena/fly/FlyingObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="333">
+          <caret line="73" column="73" lean-forward="true" selection-start-line="73" selection-start-column="73" selection-end-line="73" selection-end-column="73" />
           <folding>
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
           </folding>
         </state>
       </provider>
