@@ -2,11 +2,13 @@ package com.tarena.fly;
 
 import java.awt.*;
 import java.util.*;
+import java.io.*;
 /*import java.awt.Font;
 import java.awt.Color;
 import java.awt.Graphics;*/  //绘制2D图像的Java包
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.net.MalformedURLException;
 
 /*import java.util.Arrays;
 import java.util.Random;*/
@@ -23,7 +25,7 @@ import java.applet.*;
 
 public class ShootGame extends JPanel {
 	public static final int WIDTH = 400; // 面板宽（静态常量）
-	public static final int HEIGHT = 654; // 面板高（静态常量）
+	public static final int HEIGHT = 700; // 面板高（静态常量）
 	/** 游戏的当前状态: START RUNNING PAUSE GAME_OVER */
 	private int state;
 	private static final int START = 0;
@@ -52,7 +54,7 @@ public class ShootGame extends JPanel {
 
 	static { // 静态代码块，初始化图片资源
 		try {
-			background=ImageIO.read(ShootGame.class.getResource("background.png"));
+			background = ImageIO.read(ShootGame.class.getResource("background1.jpg"));
 			start = ImageIO.read(ShootGame.class.getResource("start.png"));
 			airplane = ImageIO
 					.read(ShootGame.class.getResource("airplane.png"));
@@ -64,6 +66,20 @@ public class ShootGame extends JPanel {
 			gameover = ImageIO
 					.read(ShootGame.class.getResource("gameover.png"));
 		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	static void playMusic() {//背景音乐播放
+		try {
+			URL cb;
+			File f = new File("C:\\Users\\lenovo\\IdeaProjects\\Shoot\\src\\com\\tarena\\fly\\林子祥 - 男儿当自强(粤语).wav"); // 引号里面的是音乐文件所在的路径
+			cb = f.toURL();
+			AudioClip aau;
+			aau = Applet.newAudioClip(cb);
+			aau.play();
+		} catch (MalformedURLException e) {
+
 			e.printStackTrace();
 		}
 	}
@@ -139,6 +155,10 @@ public class ShootGame extends JPanel {
 		frame.setLocationRelativeTo(null); // 设置窗体初始位置(使窗口显示在中央)
 		frame.setVisible(true); // 尽快调用paint
 		game.action(); // 启动执行
+
+		new Thread(() -> {
+			game.playMusic();
+		}).start();
 	}
 
 	/** 启动执行代码 */

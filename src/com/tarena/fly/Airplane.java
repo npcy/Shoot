@@ -20,7 +20,9 @@ public class Airplane extends FlyingObject implements Enemy {
 	
 	/** 获取分数 */
 	@Override
-	public int getScore() { return 5; }  //击落一架敌机获得5分
+    public int getScore() {
+        return 3;
+    }  //击落一架敌机获得3分
 
 	/** //越界处理 */
 	@Override
@@ -33,6 +35,5 @@ public class Airplane extends FlyingObject implements Enemy {
 	public void step() {   
 		y += speed;
 	}
-
 }
 
